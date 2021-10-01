@@ -1,0 +1,992 @@
+body{
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden;
+}
+
+nav#navbar{
+    background-color: #fff !important;
+    height: 54px;
+}
+
+Section.body{
+    background-color: #F8F9FA;
+}
+
+
+img#logo{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 15px;
+}
+
+button.account{
+    font-size: 12px;
+    margin-left: 15px;
+    width: 110px;
+    height: 35px;
+    border: 1px solid black;
+    background-color: #89C402;
+}
+
+button.account:hover{
+    margin-left: 15px;
+    background-color: #9BDD02;
+    text-decoration: underline;
+}
+
+a.navbar-brand{
+    font-weight: 600;
+}
+
+a.nav-link:hover{
+    text-decoration: underline;
+}
+
+
+input.form-control{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 30px;
+    margin-left: 50%;
+    width: 50%;
+    padding: 10px;
+    background-image: url('https://img.icons8.com/windows/16/000000/search--v1.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+div.section{
+    height: 45px;
+    background-color: #0078D4;
+}
+
+span#covid{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+span#covid:hover{
+    color: #fff;
+    text-decoration:underline;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+
+button.accounts{
+    font-size: 13px;
+    width: 140px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #89C402;
+}
+
+button.accounts:hover{
+    background-color: #9BDD02;
+    text-decoration: underline;
+}
+
+.main{
+    position: relative;
+    min-width: 60em;
+    background-image: url(hero-desktop.jpg);
+    padding: 72px 0 276px 0;
+    text-align: left;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div p#text-body3{
+    color: #4CD9F1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ground{
+    width: 100%;
+}
+
+#text{
+    margin-left: 10px;
+}
+
+#text-{
+    color: #f8f9fa;
+    font-size: 18px;
+}
+
+#text-1{
+    color: #f4f5f6;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.card-v2 {
+    background-color: #fff;
+    border-radius: 6px;
+    color: #4c4c51;
+    padding: 24px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.card-v2__heading {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.card-v2__description {
+    display: block;
+    margin: 12px 0;
+}
+
+.card-v2--discover {
+    align-items: center;
+    display: flex;
+    padding: 24px 24px 24px 80px;
+    position: relative;
+}
+
+img#card-bg1{
+    width:156px;
+    height: 190px;
+    margin-top: 20px;
+}
+
+.card-heading{
+    margin-left: 14px;
+}
+
+span.card-title{
+    color: #0078d4;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+span.card-title:hover{
+    color: #002847;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.card{
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.card:hover {
+    box-shadow: 12px 30px 69px -5px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 12px 30px 69px -5px rgba(0,0,0,0.32);
+    -moz-box-shadow: 12px 30px 69px -5px rgba(0,0,0,0.32);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+
+.card-img{
+    background-image:url('https://azurecomcdn.azureedge.net/cvt-71d90684f666a53b55378f50a6225e05321c71f6da8e76e28f6cd5ffdcda7a03/images/page/home/develop.png');
+    width: 156px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius:6px 0 0 6px;
+    -webkit-border-radius:6px 0 0 6px;
+    -moz-border-radius:6px 0 0 6px;
+    -ms-border-radius:6px 0 0 6px;
+    -o-border-radius:6px 0 0 6px;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+}
+
+.card-img1{
+    background-image:url('https://azurecomcdn.azureedge.net/cvt-6b466f49e8345da9dad18ef7d8149b6875b7cf0e355cca787673ff7744f5107c/images/page/home/streamline.png');
+    width: 156px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius:6px 0 0 6px;
+    -webkit-border-radius:6px 0 0 6px;
+    -moz-border-radius:6px 0 0 6px;
+    -ms-border-radius:6px 0 0 6px;
+    -o-border-radius:6px 0 0 6px;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+}
+
+div.card-content{
+    margin-left: 150px;
+}
+
+
+span.text-semibold{
+    margin-top: 11px;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    font-weight: 550;
+}
+
+span button.button{
+    border: 1px solid #0062AD;
+    color: #0062AD;
+    height: 45px;
+}
+
+span button.button:hover{
+    border: 1px solid #0062AD;
+    color: #fff;
+    background-color: #0062AD;
+    transition: 0.5s;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+li.presentation{
+    width: 250px;
+}
+
+h2.header{
+    margin-left: 10px;
+}
+
+div#AzureCards.container{
+    margin-left: 40px;
+}
+
+
+button.btn-default{
+    font-weight: 450;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+button.btn-default:hover{
+    font-weight: 450;
+    color: #0062AD;
+    text-decoration: underline;
+}
+
+button.btn-default:focus{
+    font-weight: 550;
+    color: black;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+
+.fas{
+    margin-right: 10px;
+}
+
+ol li{
+    list-style-type: none;
+    margin: 20px 0;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+ol.tabs-list{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Azure-icons{
+    height:50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+#Azure-cards{
+    height: 290px;
+    width: 250px;
+}
+
+a#links{
+    text-decoration: none;
+    color: #1862B5;
+    font-weight: 600;
+}
+
+a#links:hover{
+    color: #1862B5;
+    font-weight: 600;
+    text-decoration: underline;
+    transition:all 0.4s ease;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    -ms-transition:all 0.4s ease;
+    -o-transition:all 0.4s ease;
+}
+
+
+.device-wrapper{
+    margin-right: 20px;
+    height: 560px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 10px solid black; 
+    background-color: #000000;
+    padding: 3%;
+    box-shadow: 0 10px 20px rgb(0 0 0 14%);
+}
+
+a#link{
+    color: #0062ad;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+}
+
+
+ol.tabs--customer {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol.tabs--customer li {
+    margin: 12px;
+    max-width: 150px;
+    width: 25%;
+    display: block;
+    position: relative;
+}
+
+
+.tabs--customer__link {
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    display: flex;
+    height: 84px;
+    justify-content: center;
+    padding: 12px;
+    width: 100%;
+}
+
+
+.tabs--customer__link img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    max-height: calc(100% - 24px);
+    max-width: calc(100% - 24px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tabs--customer__link img:hover{
+    filter:none !important;
+    -webkit-filter:none !important;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+
+li#Azure-custom:hover{
+    background-color: #EAEBEC;
+}
+
+
+button.tabs--customer__link:focus{
+    border: 2px solid black;
+}
+
+
+
+
+div.large{
+    min-width: 570px;
+    height: 700px;
+}
+
+
+div.Testnomial{
+    background-image: url('https://azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/nhs-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.card-overlay {
+    color: #fff;
+    background-color: #252529;
+    border: 1px solid #252529;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    margin-top: 400px;
+}
+
+
+a.cardlink{
+    color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .1em;
+    text-decoration-color: #b8b9ba;
+}
+
+a.cardlink:hover{
+    color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .1em;
+    text-decoration: none;
+}
+
+section.service{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+img#server{
+    width: 407px;
+    height: 356px;
+}
+
+.text-heading2{
+    color: #1a1a1f;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    margin-top: 100px;
+}
+
+p.cardtitle{
+    color: #4c4c51;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+p.cardtext:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.card-v2__image {
+    background-image: url('https://azurecomcdn.azureedge.net/cvt-12ebcdbb9fa367bcda7231585181257cd6b2a8c1180ac824b00f18e67c1239d0/images/page/home/news/microsoft-learn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    padding-bottom: 50%;
+    border-radius: 6px;
+    height: auto;
+}
+
+.card-v2__image1 {
+    background-image: url('https://azurecomcdn.azureedge.net/cvt-aa0f91adf1d4d5f74b2701d8de5255953526e95f54304dee718ad7acb5e04e25/images/page/home/news/azure-regions.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    padding-bottom: 50%;
+    border-radius: 6px;
+    height: auto;
+}
+
+
+.card-v2__content {
+    bottom: 0;
+    left: 0;
+    padding: 24px;
+    position: absolute;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.text-body6{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2E2E33;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 9px;
+}
+
+.card-v2__descript {
+    font-size: 24px;
+    font-weight: 600;
+    margin:0;
+}
+
+.card-v2__descript:hover{
+    font-size: 24px;
+    font-weight: 600;
+    margin:0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-v2__latest{
+    background-color: #fff;
+    border-radius: 6px;
+    color: #4c4c51;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.text-body7{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 9px;
+}
+
+
+section.Video{
+    margin-top: 50px;
+}
+
+div.Video{
+    background-image: url('https://azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/dev-stories/desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card-v2__ctas {
+    margin-top: 24px;
+}
+
+.list--links-horizontal {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: -12px 0 0 0;
+    padding-left: 0;
+}
+
+
+.button--video {
+    background-color: #0078d4;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px 12px 48px;
+    position: relative;
+    width: auto;
+}
+
+
+.button--video:before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #50e6ff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+
+.button--video:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #0078d4;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 26px;
+}
+
+.card-v2__ctas a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: .1em;
+    text-decoration-color: #b8b9ba;
+}
+
+
+a.cardlink1{
+    color: #f8f9fa;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 600;
+    text-underline-offset: .1em;
+    text-decoration-color: #b8b9ba;
+    margin-left: 20px;
+}
+
+a.cardlink1:hover{
+    color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .1em;
+    text-decoration: none;
+}
+
+
+section.cards{
+    margin-top: 60px;
+}
+
+.card-v2--color05 {
+    background-color: #243a5e;
+    color: #f8f9fa;
+    
+}
+.card-v2--action{
+    width: 100%;
+    height: 260px;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+
+div.card-v2__logo{
+    height: 100px;
+    width: 100px;
+}
+
+.card-v2--hover:hover {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 14%);
+}
+
+.card-v2__text-block {
+    color: #f8f9fa;
+}
+
+.card-v2__heading{
+    font-size: 20px;
+}
+
+.card-v2__heading:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+span.icon {
+    display: inline-block;
+    height: 48px;
+    line-height: 0;
+    vertical-align: middle;
+    width: 48px;
+}
+
+.card-v2--gray90 {
+    background-color: #242429;
+    color: #f8f9fa;
+}
+
+.card-v2--color04 {
+    background-color: #0062ad;
+    color: #f8f9fa;
+}
+
+p#last{
+    margin-bottom:36px;
+}
+
+
+
+footer.footer-nav {
+    background-color: #f4f5f6;
+    color: #1a1a1f;
+    padding: 48px 0 36px;
+    font-size: 12px;
+    display:block;
+}
+
+.footer-nav__pre-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a.Azure-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #eaebec;
+    color: #4c4c51;
+    text-decoration: none;
+    padding: 12px; 
+    margin-left: 25px;
+}
+
+span.icon-size2 {
+    height: 24px;
+    width: 24px;
+}
+
+.Azure-footer .text-heading6 {
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.Azure-footer_social{
+    display:flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+
+.Azure-footer li a{
+    color: #1a1a1f;
+    display: block;
+    padding: 2px 0;
+    text-decoration: none;
+}
+
+.Azure-footer_social svg{
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+ul.Azure-footer_social li{
+    margin-top: 20px;
+    list-style-type: none;
+    margin-left: 36px;
+}
+
+ul.footer-nav__column-links li{
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
+ul.footer-nav__column-links li a{
+    color: #1a1a1f;
+    display: block;
+    text-decoration: none;
+}
+
+#Column {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+button#Link-Head{
+    cursor: default;
+}
+
+div.Azure-row{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-heading6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.footer-nav__column-links {
+    margin-top: 12px;
+    float: left;
+}
+
+li.Azure-footer-links{
+    margin-top: 20px;
+}
+
+ul#Column li:hover{
+    text-decoration: underline;
+}
+
+ul#Column li a:focus{
+    border: 2px solid black;
+}
+
+#footer-nav__actions {
+    display: flex;
+}
+
+.row-size2 {
+    margin-top: 24px;
+}
+
+#dropdown-cultures label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+div#footer-nav__actions{
+    margin-left: 25px;
+}
+
+span#space{
+    margin-left: 70px;
+}
+
+button#dropdownMenuButton1{
+    width: 180px;
+    height: 36px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.dropdown button#dropdownMenuButton1:hover{
+    color: #000000;
+    border: 1px solid #747479;
+    text-decoration: none;
+}
+
+.dropdown button#dropdownMenuButton1:focus{
+    border: 1px solid #747479;
+    text-decoration: none;
+}
+
+
+div#last-content{
+    margin-top: 34px !important;
+    margin-left: 60px;
+}
+
+ul.footer-content{
+    margin-left: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content li a{
+    color: #1a1a1f;
+    display: block;
+    padding: 2px 0;
+    text-decoration: none;
+    float: right;
+}
+
+
+li.copyright {
+    white-space: nowrap;
+    font-weight: 600;
+    padding: 2px 0;
+    margin-top: 5px;
+    margin-right: 12px;
+    cursor: default;
+}
+
+.btn{
+    font-size: 12px;
+    font-weight: 400;
+    line-height:1.5;
+    font-family: 'Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
+}
+
+.btn:hover{
+    font-size: 12px;
+    font-weight: 400;
+    line-height:1.5;
+    font-family: 'Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
+    text-decoration: underline;
+}
