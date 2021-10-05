@@ -3,23 +3,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Computing Services</title>
+    <title>Cloud Computing Services | Microsoft Azure</title>
+    <link rel="icon" href="images/microsoft-5.svg">
     <!--Font Awesome cdn-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <!--Font Awesome cdn -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
     <!-- Bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- css -->
-    <link rel="stylesheet" href="Azure.css">
+    <link rel="stylesheet" href="css/Azure.css">
 </head>
 <body>
 
     <!--Navbar-->
-    
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-           <img id="logo" src="microsoft-5.svg" alt="logo"/>
+           <img id="logo" src="images/microsoft-5.svg" alt="logo"/>
           <a class="navbar-brand" href="">Azure</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -134,9 +134,36 @@
 
         </div>
       </nav>
+      <!--Navbar ends-->
 
 
-    <!--banner-->
+
+      <!--hidden navbar-->
+      <div id="azure-header-minimum" class="header-minimum header-minimum--secondary in" data-module="header-minimal" aria-hidden="true">
+        <div class="header-minimum__container">
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-lg-6">
+                    <div class="nav-identity"> 
+                        <img id="nav-logo" src="images/microsoft-5.svg" alt="logo"/>
+                        <a id="Another-nav-logo-name" class="navbar-brand" href="">Azure</a>
+                    </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="free-button">
+                            <button type="button" class="btn account float-end"><b>Free account</b></button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+     <!--hidden navbar ends-->
+
+
+    
+
+    <!--COVID banner-->
         <div class="section section-banner">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -146,22 +173,24 @@
                 </div>
             </div>
         </div>
+        <!--COVID banner-->
 
-        <!--main-->
+       
 
+     <!--Carousel-->
     <section class="main">
         <div class="container-fluid">
             <div id="text" class="row">
                 <div class="col-lg-8">
-                    <div class="col-lg-12">
-                        <p id="text-body3">INVENT WITH PURPOSE</p>
-                        <h1 id="text-1">Azure. Because even superhero developers need a sidekick.</h1>
+                    <div class="col-12 col-lg-12">
+                        <p id="text-body3" >INVENT WITH PURPOSE</p>
+                        <h1 id="text-1">Secure and govern your data like your business depends on it</h1>
                     </div>
                     <div class="col-lg-12">
                         <p id="text-">
-                            Innovate faster with open source on Azure, while also improving your security.
-                            Start exploring with a free account and get 12 months of popular, 
-                            free cloud services—plus a $200 credit 
+                            Be confident knowing that your data is reliable, compliant, and well-protected with Azure data 
+                            governance and security innovations. Start exploring with a free account and get 12 months of popular 
+                            services free—plus a $200 credit.
                         </p>
                     </div>
                     <div class="col-lg-3">
@@ -170,38 +199,39 @@
                 </div>
             </div>
         </div>
-
     </section>
+     <!--Carousel ends-->
 
-    <!--body Section-->
 
+
+    <!--Section starts-->
     <Section class="body">
 
-                            
-    <div class="container mt-4 mb-4">
+
+     <!--banner-->                       
+    <div class="container mb-4">
         <div class="row">
             <div class="col-lg-12 mt-5 mb-5">
                 <h2>On-premises, hybrid, multicloud, or at the edge-create secure, future-ready cloud solutions on Azure</h2>
             </div>
         </div>
     </div>
-    
+    <!--banner ends-->
+ 
 
+    <!--page starting cards-->
     <div class="container-fluid mt-4">
-        <div class="row">
+        <div class="row cards">
             <div class="col-md-6">
-                <div class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img id="card-bg1" src="https://azurecomcdn.azureedge.net/cvt-13ec7afbf2d3c382d4972184cf6c982ed680f2799fd1e3c4de6647c99cf0a6c7/images/page/home/innovate.png" alt="img">
-                    </div>
-                    <div class="card-heading card-v2">
-                        <span class="card-title">
-                            Innovate faster with open source on Azure
-                        </span>
-                        <p class="card-subtitle mt-3 mb-3">
-                            Build, collaborate, and deploy seamlessly and more securely—in any environment—using your favorite languages and frameworks.
-                        </p>
-                    </div>
+                <div id="card-bg1" class="card Cardd">
+                   <div class="Cardd-text-block">
+                       <h3 class="Cardd-heading">
+                           Azure data governance digital event
+                       </h3>
+                       <p class="Cardd-description" style="margin-right: 50%;">
+                        Discover how to maximize the value of your on-premises, multicloud, and software-as-a-service (SaaS) data—watch on demand.
+                       </p>
+                   </div>
                 </div>
             </div>
 
@@ -210,16 +240,16 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="card-img"></div>
-                            <div class="card-body">
-                                <div class="card-content" style="padding: 21px;">
+                            <div class="card-body" style="padding: 22px;">
+                                <div class="card-img"></div>
+                                <div class="card-content">
                                     <h3 class="card-v2__heading">
                                         <span class="card-title">
-                                            Develop on the cloud built by security experts
+                                           Unify data governance with Azure Purview
                                         </span>
                                     </h3>
                                     <p class="card-v2__description">
-                                        Protect, detect, and respond to threats with confidence on the only cloud built by a global cybersecurity leader.
+                                        Classify, track, and discover your data by creating an automated map of your data estate.
                                     </p>
                                 </div>
                             </div>
@@ -230,16 +260,16 @@
                 <div class="row mt-4">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="card-img1"></div>
-                            <div class="card-body">
-                                <div class="card-content" style="padding: 21px;">
+                            <div class="card-body" style="padding: 22px;">
+                                <div class="card-img1"></div>
+                                <div class="card-content">
                                     <h3 class="card-v2__heading">
                                         <span class="card-title">
-                                            Develop on the cloud built by security experts
+                                            Azure Automanage for Windows Server
                                         </span>
                                     </h3>
                                     <p class="card-v2__description">
-                                        Protect, detect, and respond to threats with confidence on the only cloud built by a global cybersecurity leader.
+                                        Effortlessly automate IT management of your cloud and on-premises Windows Server infrastructure.  
                                     </p>
                                 </div>
                             </div>
@@ -251,21 +281,27 @@
 
         </div>
     </div>
+    <!--page starting cards ends-->
    
 
-    <div id="new" class="container" style="margin-top: 60px; margin-bottom: 80px;">
+
+    <!--button Banner-->
+    <div id="new" class="container justify-content-center" style="margin-top: 60px; margin-bottom: 80px;">
         <div class="row mt-4 mb-4">
             <div class="col-md-6">
                 <span class="text-semibold">New to Azure?</span>
             </div>
             <div class="col-md-6">
                 <span class="text-semibold-button">
-                    <button class="btn button">Get an overview</button>
+                    <button id="decoration" class="btn button">Get an overview</button>
                 </span>
             </div>
         </div>
     </div>
+    <!--button Banner ends-->
 
+
+    <!--banner-->
     <div class="container-fluid mt-4 mb-4">
         <div class="row">
             <div class="col-lg-12 mt-5 mb-2">
@@ -273,8 +309,11 @@
             </div>
         </div>
     </div>
+    <!--banner-->
 
 
+
+    <!--3 column data-->
     <div id="Azure-list" class="container-fluid">
         <div class="row">
             <div class="col-lg-9">
@@ -365,7 +404,7 @@
                                             </span>
                                         </div>
                                         <div class="card-body">
-                                            <div class="card-text text-center mt-5">
+                                            <div class="card-text text-center mt-2">
                                                 Build and scale apps with managed Kubernetes
                                             </div>
                                             <div class="card-headings text-center mt-5">
@@ -402,7 +441,7 @@
                                                 </span>
                                             </div>
                                             <div class="card-body">
-                                                <div class="card-text text-center mt-5">
+                                                <div class="card-text text-center mt-2">
                                                     Trigger Apps with serverless computing
                                                 </div>
                                                 <div class="card-headings text-center mt-5">
@@ -425,7 +464,7 @@
                                         
                                             </div>
                                             <div class="card-body">
-                                                <div class="card-text text-center mt-5">
+                                                <div class="card-text text-center mt-2">
                                                     Get unmatched time to insights with a limitless analytics service
                                                 </div>
                                                 <div class="card-headings text-center mt-4">
@@ -477,7 +516,7 @@
                                                 </span>
                                         </div>
                                         <div class="card-body">
-                                            <div class="card-text text-center mt-5">
+                                            <div class="card-text text-center mt-2">
                                                 Unify on-premises, hybrid, and cross-cloud infrastructure
                                             </div>
                                             <div class="card-headings text-center mt-5">
@@ -512,7 +551,7 @@
                                     
                                         </div>
                                         <div class="card-body">
-                                            <div class="card-text text-center mt-5">
+                                            <div class="card-text text-center mt-2">
                                                 Add video, SMS, chat, and other communication APIs to apps
                                             </div>
                                             <div class="card-headings text-center mt-4">
@@ -534,7 +573,7 @@
                                                     
                                                         </div>
                                                         <div class="card-body">
-                                                            <div class="card-text text-center mt-5">
+                                                            <div class="card-text text-center mt-2">
                                                                 Automate code-to-cloud workflows with GitHub Actions for Azure
                                                             </div>
                                                             <div class="card-headings text-center mt-4">
@@ -560,11 +599,11 @@
                                 <div class="col-md-12">
                                     <div class="lightbox">
                                         <div class="lightbox-homepage">
-                                            <button type="button" class="btn btn-photo">
-                                                <img class="device-wrapper" src="popular.jpg" alt="photo">
+                                            <button type="button" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-photo">
+                                                <img class="device-wrapper" src="images/popular.jpg" alt="photo">
                                             </button>
                                             <button type="button" class="btn btn-data">
-                                                <a id="link" href="">
+                                                <a id="link" data-bs-toggle="modal" data-bs-target="#Modal" href="">
                                                   <i class="fas fa-long-arrow-alt-left"></i>View Azure portal screenshot in full screen
                                                 </a>
                                             </button>
@@ -574,57 +613,82 @@
                             </div>
                         </div>
                     </div>
-
-
+            </div>
         </div>
+    <!--3 column data ends-->
+
+
+    <!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="justify-content: center; margin-top:80px; margin-left: 240px">
+        <img class="lightbox__image--large" src="https://azurecomcdn.azureedge.net/cvt-9edd9116e51a05176bb3f71c5484df62e32dd29fac2d568785cb002c45064fa8/images/page/home/portal-screenshots/popular.png" alt="" />
     </div>
+  </div>
+
+
+
+<div class="space"></div>
 </Section>
+<!--section ends-->
 
 
+
+
+    <!--section starts-->
     <section class="Main-body">
 
+                    <!--banner-->
                     <div class="container text-center mt-5 mb-3">
                         <div class="row">
-                            <div class="col-lg-12 mt-5 mb-5">
+                            <div class="col-lg-12 mt-5 mb-2">
                                 <h2>Find out how these customers are innovating with Azure</h2>
                             </div>
                         </div>
                     </div>
-
+                    <!--Banner ends-->
+ 
+                    
+                    <!--Testnomial-->
 
                     <section class="testnomial">
                         <div class="show-for-large">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                    <ol class="tabs--customer sd-tabs" role="tablist">
+                                    <ol class="tabs--customer nav nav-pills border-bottom-4" role="tablist">
+                                        <li class="nav-item active" id="Azure-custom" role="presentation">
+                                            <button type="button" id="NBA-tab" data-bs-toggle="tab" data-bs-target="#NBA" type="button" role="tab" aria-controls="NBA" aria-selected="true" class="Nav-link active btn btn-default tabs--customer__link">
+                                                    <img src="https://azurecomcdn.azureedge.net/cvt-7e30a4f02ad1c797549df898120b308cd920ce0294ee2f587595cb5d087e0964/images/page/home/customer-tabs/nba-logo.svg" alt="" loading="lazy">
+                                            </button> 
+                                        </li>
+
                                         <li class="nav-item" id="Azure-custom" role="presentation">
-                                            <button type="button"  class="nav-link btn btn-default tabs--customer__link">
-                                                <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/nhs-logo.svg" alt="" loading="lazy">
+                                            <button type="button" id="OREO-tab" data-bs-toggle="tab" data-bs-target="#OREO" type="button" role="tab" aria-controls="OREO" aria-selected="false" class="nav-link btn btn-default tabs--customer__link">
+                                                    <img src="https://azurecomcdn.azureedge.net/cvt-7e30a4f02ad1c797549df898120b308cd920ce0294ee2f587595cb5d087e0964/images/page/home/customer-tabs/mondelez-logo.svg" alt="" loading="lazy">
                                             </button>
                                         </li>
                                     
                                         <li class="nav-item" id="Azure-custom" role="presentation">
-                                            <button type="button" class="nav-link btn btn-default tabs--customer__link">
-                                                <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/pepsico-logo.svg" alt="" loading="lazy">
+                                            <button type="button" id="PEPSI-tab" data-bs-toggle="tab" data-bs-target="#PEPSI" type="button" role="tab" aria-controls="PEPSI" aria-selected="false" class="nav-link btn btn-default tabs--customer__link">
+                                                    <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/pepsico-logo.svg" alt="" loading="lazy">
                                             </button>
                                         </li>
                                     
                                         <li class="nav-item" id="Azure-custom" role="presentation">
-                                            <button type="button" class="nav-link btn btn-default tabs--customer__link">
-                                                <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/american-cancer-society-logo.svg" alt="" loading="lazy">
+                                            <button type="button" id="ACS-tab" data-bs-toggle="tab" data-bs-target="#ACS" type="button" role="tab" aria-controls="ACS" aria-selected="false" class="nav-link btn btn-default tabs--customer__link">
+                                                    <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/american-cancer-society-logo.svg" alt="" loading="lazy">
                                             </button>
                                         </li>
                                     
                                         <li class="nav-item" id="Azure-custom" role="presentation">
-                                            <button type="button" class="nav-link btn btn-default tabs--customer__link">
-                                                <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/bosch-logo.svg" alt="" loading="lazy">
+                                            <button type="button" id="BOSCH-tab" data-bs-toggle="tab" data-bs-target="#BOSCH" type="button" role="tab" aria-controls="BOSCH" aria-selected="false" class="nav-link btn btn-default tabs--customer__link">
+                                                    <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/bosch-logo.svg" alt="" loading="lazy"> 
                                             </button>
                                         </li>
-                                    
+
                                         <li class="nav-item" id="Azure-custom" role="presentation">
-                                            <button type="button" class="nav-link btn btn-default tabs--customer__link active">
-                                                <img src="//azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/make-a-wish-logo.svg" alt="" loading="lazy">
+                                            <button type="button" id="SWISS-tab" data-bs-toggle="tab" data-bs-target="#SWISS" type="button" role="tab" aria-controls="SWISS" aria-selected="false" class="nav-link btn btn-default tabs--customer__link">
+                                                <img src="https://azurecomcdn.azureedge.net/cvt-7e30a4f02ad1c797549df898120b308cd920ce0294ee2f587595cb5d087e0964/images/page/home/customer-tabs/swissre-logo.svg" alt="" loading="lazy">
                                             </button>
                                         </li>
                         
@@ -633,46 +697,284 @@
                                 </div>
                             </div>
 
-                            <div class="Testnomial">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tab-content">
-                                            <div class="tab-pane active" id="Kianos"> 
-                                                <div class="row">
-                                                    <div class="col auto">
-                                                        <div class=""></div>
-                                                    </div>
-                                                </div>
-                                            </div>   
-                                            
-                                            <div class="hero-image">
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="card-overlay">
-                                                            <div class="card-body">
-                                                                <div class="card-text">
-                                                                    <p class="text-area">
-                                                                        Kainos helps millions in England access healthcare from the National Health Service app with Azure Kubernetes Service (AKS) and Azure Cosmos DB.
-                                                                    </p>
+
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="NBA" role="tabpanel" aria-labelledby="NBA-tab">
+
+                                    <div class="Testnomial">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+        
+                                                <div class="tab-content">
+                                                        <div class="container" id="NBA"> 
+                                                            <div class="row">
+                                                                <div class="col auto">
+                                                                    <div class=""></div>
                                                                 </div>
-                                                                <div>
-                                                                    <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                            </div>
+                                                        </div>   
+                                                    <div class="hero-image">
+                                                        <div class="hero-image-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="card-overlays">
+                                                                        <div class="card-body" style="padding: 24px;">
+                                                                            <div class="card-text">
+                                                                                <p class="text-area">
+                                                                                    To bring fans deeper into the game, NBA CourtOptix uses Azure machine 
+                                                                                    learning and AI solutions to provide on-screen analysis of every shot, 
+                                                                                    pass, and play.
+                                                                                </p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+        
                                             </div>
-
                                         </div>
                                     </div>
+        
+                                
                                 </div>
+                                
+    
+                                <div class="tab-pane fade" id="OREO" role="tabpanel" aria-labelledby="OREO-tab">
+    
+                                    <div class="Testnomial1">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="tab-content">
+                                                    <div class="container" id="OREO"> 
+                                                        <div class="row">
+                                                            <div class="col auto">
+                                                                <div class=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                    
+                                                    <div class="hero-image">
+                                                        <div class="hero-image-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="card-overlays">
+                                                                        <div class="card-body" style="padding: 24px;">
+                                                                            <div class="card-text">
+                                                                                <p class="text-area">
+                                                                                    Mondelēz International dramatically improved app performance, 
+                                                                                    availability, and resilience by migrating its business-critical 
+                                                                                    SAP resources to Azure.
+                                                                                </p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                
+    
+                                <div class="tab-pane fade" id="PEPSI" role="tabpanel" aria-labelledby="PEPSI-tab">
+
+                                    <div class="Testnomial2">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="tab-content">
+                                                    <div class="container" id="PEPSI"> 
+                                                        <div class="row">
+                                                            <div class="col auto">
+                                                                <div class=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                    
+                                                    <div class="hero-image">
+                                                        <div class="hero-image-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="card-overlays">
+                                                                        <div class="card-body" style="padding: 24px;">
+                                                                            <div class="card-text">
+                                                                                <p class="text-area">
+                                                                                    PepsiCo uses Azure Machine Learning to identify consumer shopping 
+                                                                                    trends and provide actionable, store-level insights.
+                                                                                </p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+
+                                </div>
+                                
+
+                                <div class="tab-pane fade" id="ACS" role="tabpanel" aria-labelledby="ACS-tab">
+
+                                    <div class="Testnomial3">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="tab-content">
+                                                    <div class="container" id="ACS"> 
+                                                        <div class="row">
+                                                            <div class="col auto">
+                                                                <div class=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                    
+                                                    <div class="hero-image">
+                                                        <div class="hero-image-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="card-overlays">
+                                                                        <div class="card-body" style="padding: 24px;">
+                                                                            <div class="card-text">
+                                                                                <p class="text-area">
+                                                                                    American Cancer Society has kept resources flowing to patients and researchers 
+                                                                                    during the global pandemic by transitioning their infrastructure to Azure.
+                                                                                </p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+    
+                                <div class="tab-pane fade" id="BOSCH" role="tabpanel" aria-labelledby="BOSCH-tab">
+
+                                    <div class="Testnomial4">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="tab-content">
+                                                    <div class="container" id="BOSCH"> 
+                                                        <div class="row">
+                                                            <div class="col auto">
+                                                                <div class=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                    
+                                                    <div class="hero-image">
+                                                        <div class="hero-image-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="card-overlays">
+                                                                        <div class="card-body" style="padding: 24px;">
+                                                                            <div class="card-text">
+                                                                                <p class="text-area">
+                                                                                    Bosch Building Technologies used Azure to expand and globally deploy 
+                                                                                    a platform that analyzes energy consumption and helps pursue ongoing 
+                                                                                    energy efficiency.
+                                                                                </p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+    
+                                <div class="tab-pane fade" id="SWISS" role="tabpanel" aria-labelledby="SWISS-tab">
+
+                                    <div class="Testnomial5">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="tab-content">
+                                                    <div class="container" id="SWISS"> 
+                                                        <div class="row">
+                                                            <div class="col auto">
+                                                                <div class=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                    
+                                                    <div class="hero-image">
+                                                        <div class="hero-image-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="card-overlays">
+                                                                        <div class="card-body" style="padding: 24px;">
+                                                                            <div class="card-text">
+                                                                                <p class="text-area">
+                                                                                    Swiss Re accelerates Java app modernization—quickly, 
+                                                                                    compliantly, and with minimal overhead—using Azure Spring Cloud.
+                                                                                </p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a class="cardlink" href="">Case Study <i class="fas fa-chevron-right"></i></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
 
                         </div>
                     </section>
+                    <!--Testnomial ends-->
 
 
+                    <!--service-->
                     <section class="service">
                         <div class="container">
                             <div class="row">
@@ -689,7 +991,7 @@
                                     </div>
                                     <div class="serverbutton mt-5">
                                         <span class="text-semibold-button">
-                                            <button class="btn button">See how to maximize he value of your data</button>
+                                            <button id="decoration" class="btn button">See how to maximize he value of your data</button>
                                         </span>
                                     </div>
                                 </div>
@@ -697,8 +999,11 @@
                             </div>
                         </div>
                     </section>
+                    <!--service ends-->
 
 
+
+                    <!--News-->
                     <div class="news">
                         <div class="container text-center mt-4 mb-4">
                             <div class="row">
@@ -717,37 +1022,36 @@
                                 <div class="col-lg-3">
                                     <div class="card">
                                         <div class="bg-image hover-overlay ripple">
-                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-0400b7b2e9ae1211e7c3f7d6fd90c14d5a3db2b68a68983949b09104201db137/images/page/home/news/inside-azure.png" class="img-fluid" />
+                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-79afd76761b25d3cefc8bdff0e36db2c72ec6992649d2f545cb9a1d2857a6d10/images/page/home/news/azure-automanage.png" class="img-fluid" />
                                           <a href="#!">
                                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                                           </a>
                                         </div>
                                       
-                                        <div class="card-body">
-                                          <p class="cardtitle">INSIDE AZURE OF IT</p>
+                                        <div id="Azure-news" class="card-body">
+                                          <p class="cardtitle">UPGRADE TO WINDOWS SERVER 2022</p>
                                           <p class="cardtext">
-                                            Keep up with the latest Azure insights, expert tips, and technical skill-building resources on Inside Azure for IT.
+                                            Get advanced multilayer security and rich hybrid capabilities—and see why Azure is the best cloud for Windows Server.
                                           </p>
-                                      
                                         </div>
+
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="card">
                                         <div class="bg-image hover-overlay ripple">
-                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-f9b0dd041a768b716995a0e6b91d5f2cedfca233a62ad3e14a887615602240a6/images/page/home/news/azure-security.png" class="img-fluid" />
+                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-0400b7b2e9ae1211e7c3f7d6fd90c14d5a3db2b68a68983949b09104201db137/images/page/home/news/inside-azure.png" class="img-fluid" />
                                           <a href="#!">
                                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                                           </a>
                                         </div>
                                       
-                                        <div class="card-body">
-                                          <p class="cardtitle">AZURE WELL-ARCHITECTED SECURITY</p>
+                                        <div class="card-body" style="margin-bottom: 17px;">
+                                          <p class="cardtitle">INSIDE AZURE OF IT</p>
                                           <p class="cardtext">
-                                            Design, build, and manage secure apps with the Azure Well-Architected Framework.
+                                            Keep up with the latest Azure insights, expert tips, and technical skill-building resources on Inside Azure for IT.
                                           </p>
-                                      
                                         </div>
                                     </div>
                                 </div>
@@ -759,7 +1063,8 @@
                                                 <div class="card-v2__content">
                                                     <div class="text-body6">
                                                         <p class="card-v2__descript">
-                                                            Get more out of Azure by gaining new technical and business skills—with training options for any learning style.
+                                                            Explore how Microsoft Azure Government serves the critical mission
+                                                            of US national security.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -772,16 +1077,16 @@
                                 <div class="col-lg-3">
                                     <div class="card">
                                         <div class="bg-image hover-overlay ripple">
-                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-dd8d0a8f588982222f01b3a667a6467b34817d7f3ca567f71781b91db15096ef/images/page/home/news/github.png" class="img-fluid" />
+                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-4d98a378e3a8a9dbcf910755cc23ba986158eb567aabf8abad18f9a2ef06087d/images/page/home/news/azure-migrate.png" class="img-fluid" />
                                           <a href="#!">
                                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                                           </a>
                                         </div>
                                       
                                         <div class="card-body">
-                                          <p class="cardtitle">GITHUB CODESPACES NOW AVAILABLE</p>
+                                          <p class="cardtitle">PREVIEW: DISCOVER AND ASSESS .NET APPS</p>
                                           <p class="cardtext">
-                                            Create fully configured, collaborative cloud dev environments in seconds with GitHub Codespaces.
+                                            Discover and assess your ASP.NET apps running in VMware—at scale—with Azure Migrate.
                                           </p>
                                       
                                         </div>
@@ -806,16 +1111,16 @@
                                 <div class="col-lg-3">
                                     <div class="card">
                                         <div class="bg-image hover-overlay ripple">
-                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-5152647c034326989cb4f0882f19141c58c6882072df4c55efad2c67fe028b21/images/page/home/news/try-azure.png" class="img-fluid" />
+                                          <img style="border-radius: 6px 6px 0 0;" src="https://azurecomcdn.azureedge.net/cvt-a5f944b98841a1c2e94a36c5632230c14fcfb9c51d1f49b7f05cb6dc1cc7987a/images/page/home/news/java.png" class="img-fluid" />
                                           <a href="#!">
                                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                                           </a>
                                         </div>
                                       
-                                        <div class="card-body mb-4">
-                                            <p class="cardtitle">TRY AZURE FOR FREE</p>
+                                        <div class="card-body">
+                                            <p class="cardtitle">JAVA EE ON AZURE APP SERVICE</p>
                                             <p class="cardtext">
-                                                Now get four more services free for 12 months with an Azure free account.
+                                                Build and operate Java EE apps more efficiently with the only fully managed service for Red Hat JBoss EAP.
                                             </p>
                                         </div>
                                     </div>
@@ -826,8 +1131,11 @@
                         </div>
                     </div>
                 </section>
+                <!--News ends-->
 
 
+
+                <!--Video Panel-->
                 <section class="Video">
                     <div class="Video">
                         <div class="row">
@@ -845,13 +1153,13 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="card-overlay">
-                                                    <div class="card-body">
+                                                    <div class="card-body" style="padding: 24px; width: 690px">
                                                         <div class="card-text">
                                                             <p class="text-area" style="font: 24px; font-weight: 600; line-height:1.2; margin: 0 0 12px;">
                                                                 Developer Aadithyan Rajesh makes learning fun for his Gen Z peers on Tangled, the platform he co-created using Visual Studio Code and GitHub.
                                                             </p>
                                                         </div>
-                                                        <div class="card-v2__ctas">
+                                                        <div class="card-v2__ctas mt-5">
                                                             <ul class="list--links-horizontal">
                                                                 <li>
                                                                     <button class="button--video" id="thumbnail-home-video-large">
@@ -859,7 +1167,7 @@
                                                                     </button>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="cardlink1" href="">Check out more inventor story <i class="fas fa-chevron-right"></i></a>
+                                                                    <a style="color:#fff" class="cardlink1" href="">Check out more inventor story <i class="fas fa-chevron-right"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -874,8 +1182,11 @@
                         </div>
                     </div>
                 </section>
+                <!--Video Panel ends-->
 
 
+
+                <!--service cards-->
                 <section class="cards mb-4">
                     <div class="container-fluid">
                         <div class="row">
@@ -946,10 +1257,14 @@
                         </div>
                     </div>
                 </section>
+                <!--service cards ends-->
+
         </section>
+        <!--Section ends-->
 
 
 
+                <!--Footer-->
                 <footer id="Footer" class="footer-nav">
                     <div class="container-fluid">
                         <div class="row">
@@ -1178,11 +1493,13 @@
                                 </div>
                             </div>
                 </footer>
-            
+                <!--Footer ends-->
 
+ 
+    <!--JS Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/Azure.js">loadlib("Azure")</script>
+ 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="Azure.js"></script>
 </body>
 </html>

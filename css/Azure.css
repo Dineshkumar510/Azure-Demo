@@ -1,7 +1,82 @@
+.header-minimum--secondary.in {
+    transform: translateY(0);
+}
+
+.header-minimum--secondary.in, .header-minimum--secondary.out {
+    opacity: 100%;
+    pointer-events: auto;
+    z-index: 999;
+    box-shadow: 0 0 8px -1px rgb(0 0 0 / 25%);
+}
+
+.header-minimum--secondary {
+    display: block;
+    position: fixed;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: none 180ms ease-in 10ms;
+    transition-property: transform,z-index;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.header-minimum {
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    height: 60px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #1a1a1f;
+    font-size: 15px;
+}
+
+
+div.free-button{
+    margin-top: 13px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+a#Another-nav-logo-name{
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+img#nav-logo{
+    width: 23px;
+    height: 23px;
+}
+
+div.nav-identity{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+li button.nav-link{
+    background-color: #fff !important;
+}
+
+
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body{
     margin: 0;
     padding: 0;
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 nav#navbar{
@@ -10,7 +85,10 @@ nav#navbar{
 }
 
 Section.body{
-    background-color: #F8F9FA;
+    background-color: #f4f5f6;
+    color: #1a1a1f;
+    padding: 48px 0 36px;
+    display: block;
 }
 
 
@@ -95,7 +173,7 @@ button.accounts:hover{
 .main{
     position: relative;
     min-width: 60em;
-    background-image: url(hero-desktop.jpg);
+    background-image: url("../images/hero-desktop1.jpg");
     padding: 72px 0 276px 0;
     text-align: left;
     background-size: cover;
@@ -104,9 +182,12 @@ button.accounts:hover{
 }
 
 div p#text-body3{
-    color: #4CD9F1;
+    color: #0062AD;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 9px;
+    position: relative;
 }
 
 #ground{
@@ -118,12 +199,13 @@ div p#text-body3{
 }
 
 #text-{
-    color: #f8f9fa;
+    color: #000000;
     font-size: 18px;
+    margin-right: 20px;
 }
 
 #text-1{
-    color: #f4f5f6;
+    color: #000000;
     font-size: 54px;
     font-weight: 500;
 }
@@ -158,10 +240,52 @@ h2{
     position: relative;
 }
 
-img#card-bg1{
-    width:156px;
-    height: 190px;
-    margin-top: 20px;
+div.cards{
+    width: 100%;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
+div#card-bg1{
+   background-image: url(../images/digital-event-desktop.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+div.Cardd {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
+    color: #4c4c51;
+    padding: 24px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+div.Cardd-text-block{
+    padding: 24px;
+}
+
+h3.Cardd-heading{
+    margin-right: 20%;
+    font-size: 36px;
+    color: #0062AD;
+}
+
+h3.Cardd-heading:hover{
+    color: #002847;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 00.4s ease;
+    -webkit-transition: all 00.4s ease;
+    -moz-transition: all 00.4s ease;
+    -ms-transition: all 00.4s ease;
+    -o-transition: all 00.4s ease;
+}
+
+div.Cardd-text-block{
+    padding: 24px;
 }
 
 .card-heading{
@@ -209,41 +333,63 @@ span.card-title:hover{
 
 
 .card-img{
-    background-image:url('https://azurecomcdn.azureedge.net/cvt-71d90684f666a53b55378f50a6225e05321c71f6da8e76e28f6cd5ffdcda7a03/images/page/home/develop.png');
-    width: 156px;
+    background-image:url(../images/unify.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size:contain;
-    border-radius:6px 0 0 6px;
-    -webkit-border-radius:6px 0 0 6px;
-    -moz-border-radius:6px 0 0 6px;
-    -ms-border-radius:6px 0 0 6px;
-    -o-border-radius:6px 0 0 6px;
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
+    background-size: contain;
+    border-radius: 6px 0 0 6px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 156px;
 }
 
 .card-img1{
-    background-image:url('https://azurecomcdn.azureedge.net/cvt-6b466f49e8345da9dad18ef7d8149b6875b7cf0e355cca787673ff7744f5107c/images/page/home/streamline.png');
-    width: 156px;
+    background-image:url(../images/windows.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size:contain;
-    border-radius:6px 0 0 6px;
-    -webkit-border-radius:6px 0 0 6px;
-    -moz-border-radius:6px 0 0 6px;
-    -ms-border-radius:6px 0 0 6px;
-    -o-border-radius:6px 0 0 6px;
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
+    background-size: contain;
+    border-radius: 6px 0 0 6px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 156px;
 }
 
 div.card-content{
     margin-left: 150px;
+}
+
+button#decoration{
+    background-color: transparent;
+    border: 1px solid #0078d4;
+    border-radius: 4px;
+    color: #0062ad;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    width: 100%;
+    transition-property: background-color;
+    width: auto;
+    text-decoration: none;
+}
+
+button#decoration:hover{
+    background-color: #0078D4;
+    border: 1px solid #0078d4;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    width: 100%;
+    transition-property: background-color;
+    width: auto;
+    text-decoration: underline;
 }
 
 
@@ -288,6 +434,7 @@ div#AzureCards.container{
 
 button.btn-default{
     font-weight: 450;
+    font-size: 16px;
 }
 
 .btn:focus {
@@ -297,6 +444,7 @@ button.btn-default{
 
 button.btn-default:hover{
     font-weight: 450;
+    font-size: 16px;
     color: #0062AD;
     text-decoration: underline;
 }
@@ -378,6 +526,10 @@ a#link{
     width: auto;
 }
 
+div.space{
+    margin: 60px;
+}
+
 
 ol.tabs--customer {
     align-content: center;
@@ -440,6 +592,11 @@ li#Azure-custom:hover{
 
 button.tabs--customer__link:focus{
     border: 2px solid black;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
 }
 
 
@@ -451,8 +608,13 @@ div.large{
 }
 
 
+button.Nav-link{
+    background-color: #fff;
+}
+
+
 div.Testnomial{
-    background-image: url('https://azurecomcdn.azureedge.net/cvt-9cdc440a37fe37d9003010a3a82460fa651920565ccd519fb3c888b8832fcaf7/images/page/home/customer-tabs/nhs-desktop.jpg');
+    background-image: url(../images/nba-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-width: 100%;
@@ -465,6 +627,105 @@ div.Testnomial{
     background-size: cover;
 }
 
+div.Testnomial1{
+    background-image: url(../images/mondelez-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.Testnomial2{
+    background-image: url(../images/pepsico-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.Testnomial3{
+    background-image: url(../images/american-cancer-society-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.Testnomial4{
+    background-image: url(../images/bosch-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.Testnomial5{
+    background-image: url(../images/swissre-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100%;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+div.card-overlays {
+    color: #fff;
+    background-color: #252529;
+    border: 1px solid #252529;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-sizing: inherit;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    margin-top: 370px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+div.hero-image-content {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    left: 0;
+}
+
+
 div.card-overlay {
     color: #fff;
     background-color: #252529;
@@ -474,11 +735,16 @@ div.card-overlay {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    font-size: 20px;
+    box-sizing: inherit;
+    border: 1px solid transparent;
+    font-size: 24px;
     font-weight: 400;
     line-height: 1.3;
     margin: 0 0 10px;
-    margin-top: 400px;
+    margin-top: 300px;
+    margin-right: 20px;
+    margin-left: 30px;
+    width: 700px;
 }
 
 
@@ -523,23 +789,31 @@ p.cardtitle{
     color: #4c4c51;
     font-size: 12px;
     font-weight: 600;
+    gap: 12px;
 }
+
 
 p.cardtext:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 
+div#Azure-news{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 
 .card-v2__image {
-    background-image: url('https://azurecomcdn.azureedge.net/cvt-12ebcdbb9fa367bcda7231585181257cd6b2a8c1180ac824b00f18e67c1239d0/images/page/home/news/microsoft-learn.png');
+    background-image: url(../images/azure-government.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 6px 6px 0 0;
     width: 100%;
     padding-bottom: 50%;
     border-radius: 6px;
-    height: auto;
 }
 
 .card-v2__image1 {
@@ -567,13 +841,14 @@ p.cardtext:hover{
     font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
-    color: #2E2E33;
+    color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 0 0 9px;
 }
 
 .card-v2__descript {
+    margin-top: 40px;
     font-size: 24px;
     font-weight: 600;
     margin:0;
@@ -602,6 +877,11 @@ p.cardtext:hover{
     font-weight: 600;
     letter-spacing: 1px;
     margin: 0 0 9px;
+}
+
+div.card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
 }
 
 
