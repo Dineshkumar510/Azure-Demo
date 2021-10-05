@@ -1,10 +1,17 @@
 window.onscroll = function() {scroll()};
 
-        
+        var navbar = document.getElementById("azure-header-minimum");
+
         function scroll() {
-          if (document.body.scrollTop > 780 || document.documentElement.scrollTop > 20) {
-            document.getElementById("azure-header-minimum").style.top = "0";
+          if (document.body.scrollTop > 780) {
+            navbar.style.top = "0";
+            navbar.style.visibility = true;
           } else {
-            document.getElementById("azure-header-minimum").style.top = "-60px";
+            navbar.style.top = "-160px";
+            navbar.style.visibility = false;
           }
         }
+
+        
+
+
