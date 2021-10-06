@@ -1178,10 +1178,17 @@ div.Azure-row{
     margin-right: auto;
 }
 
-.text-heading6 {
+button.text-heading6 {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.3;
+}
+
+button.text-heading6:hover {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration: none;
 }
 
 .footer-nav__column-links {
